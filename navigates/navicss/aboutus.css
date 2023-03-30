@@ -1,0 +1,44 @@
+/* Basic styling */
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .slider-images {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .slider-images img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .slider-buttons {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .slider-button {
+    background-color: transparent;
+    border: none;
+    font-size: 32px;
+    color: #fff;
+    padding: 8px 16px;
+    margin: 0 8px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* Active button styling */
+  .slider-button.active {
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+  }
+  

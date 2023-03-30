@@ -1,0 +1,258 @@
+/* /* *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    background : white;
+}
+
+section{
+    min-height: 100vh;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .container{
+    margin: 100px;
+}
+
+section .cards {
+    display: flex;
+}
+
+section .cards .textcards h3{
+    background: red;
+    margin: 20px;
+    padding: 20px;
+}
+
+.age {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.duri {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.year {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    position : relative;
+    left: 100px;
+    top: -50px;
+}
+
+.nursery{
+    left: 170px;
+    top: -50px;
+}
+
+.play {
+    left: 40px;
+    top: -22px;
+}
+
+p1{
+  position: relative;
+  left : 100px;
+}
+
+.cards {
+    background : red;
+    padding: 5px 10px;
+} */
+
+
+/* 99999999999999999999999999999999999999999999999999999999999999999999999999999999 */
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display:  flex;
+    justify-content: center;
+    align-items:  center;
+    width: 10%;
+    min-width: 100vh;
+}
+
+.cards {
+    display: inline-flex;
+    gap: 4rem;
+    width: 300px;
+
+}
+
+.cards1 {
+    display: inline-flex;
+    gap: 4rem;
+    width: 300px;
+    position: relative;
+    left: -70px;
+    top: 60px;
+
+}
+
+.container2 .cards2 {
+    display: inline-flex;
+    gap: 3rem;
+    width: 300px;
+    position: relative;
+    left: -100px;
+    top: 50px;
+
+}
+
+
+.text-card {
+    background: white ;
+    padding: 15px 20px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    flex: 1 0 20em;
+    position: relative;
+    left: 250px;
+    top: 100px;
+}
+
+.cards h3 {
+    margin-bottom:  10px;
+    text-transform: capitalize;
+    color: red;
+    font-size: 20px;
+    left: 100px;
+    
+}
+
+.cards1 h3 {
+    margin-bottom:  10px;
+    text-transform: capitalize;
+    color: red;
+    font-size: 20px;
+    
+}
+
+.cards2 h3 {
+    margin-bottom:  10px;
+    text-transform: capitalize;
+    color: red;
+    font-size: 20px;
+    
+}
+
+.cards p{
+    text-align: justify;
+    line-height: 130%;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.cards1 p{
+    text-align: justify;
+    line-height: 130%;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.cards2 p{
+    text-align: justify;
+    line-height: 130%;
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* .play {
+    position : relative;
+    top: 20px;
+} */
+
+/* .container2 .cards {
+  position: relative;
+  left: 10px;
+}
+
+.container1 .cards {
+    position: relative;
+    left: -100px;
+    gap: 50px;
+  }
+
+  .cards2 {
+    position: relative;
+    left: -70px;
+    top: 80px;
+  } */
+
+ /* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: w;
+} */
+
+wdawdaddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+
+<section>
+        <div class="container1">
+            <h1 class="play">Play Group</h1>
+            <div class="cards4">
+                <div class="text-card">
+                    <p class="p1">Children start to explore the world around them as soon as they are born.</p>
+                    <h3 class="age">Age Group</h3>
+                    <h3 class="year">2.0 - 3.0 Years</h3>
+                    <h3 class="duri">Duration</h3>
+                    <h3 class="time">3 hours/day </h3>
+                </div>
+            <h1 class="nursery">Nursery</h1>
+            <div class="cards3">
+                 <div class="text-card">
+                 <p class="p2">Quality education in the early years of preschool sets a firm foundation in the overall development of a child.</p>
+                    <h3 class="age">Age Group</h3>
+                    <h3 class="year">3.0 - 4.0 Years</h3>
+                    <h3 class="duri">Duration</h3>
+                    <h3 class="time">3.5 hours/day </h3>
+                </div>
+            </div>
+        </div>
+        <div class="container2">
+            <h1 class="jkg">JKG</h1>
+            <div class="cards2">
+                 <div class="text-card">
+                    <p class="p3">The transition from preschool to primary school is a crucial time of change for both children as well as their parents.</p>
+                    <h3 class="age">Age Group</h3>
+                    <h3 class="year">4.0 - 5.0 Years</h3>
+                    <h3 class="duri">Duration</h3>
+                    <h3 class="time">4.5 hours/day </h3>
+                 </div>
+            <h1 class="skj">SKG</h1>
+                 <div class="cards1">
+                  <div class="text-card">
+                    <p class="p4">The transition from preschool to primary school is a crucial time of change for both children as well as their parents.</p>
+                    <h3 class="age">Age Group</h3>
+                    <h3 class="year">5.0 - 6.0 Years</h3>
+                    <h3 class="duri">Duration</h3>
+                    <h3 class="time">5 hours/day </h3>
+                 </div>
+            </div>
+        </div>
+    
+        
+    </section>
